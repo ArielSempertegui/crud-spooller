@@ -1,0 +1,12 @@
+net\ausiasmarch\controller\UsuarioControllerGet.class
+net\ausiasmarch\dao\UsuarioDAO.class
+net\ausiasmarch\controller\UsuarioControllerPut.class
+net\ausiasmarch\service\UsuarioService.class
+net\ausiasmarch\controller\UsuarioControllerDelete.class
+net\ausiasmarch\model\Usuario.class
+net\ausiasmarch\connection\AppContextListener.class
+net\ausiasmarch\connection\HikariPool.class
+net\ausiasmarch\controller\UsuarioControllerGetAll.class
+net\ausiasmarch\controller\UsuarioControllerPost.class
+net\ausiasmarch\connection\DatabaseParameters.class
+net\ausiasmarch\exception\ResourceNotFoundException.class
