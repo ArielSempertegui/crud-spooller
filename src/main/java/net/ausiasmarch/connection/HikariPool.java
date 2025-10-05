@@ -15,9 +15,9 @@ public class HikariPool {
             HikariConfig config = new HikariConfig();
 
             // Parámetros básicos de conexión
-            config.setJdbcUrl(DatabaseParameters.getUrl());
-            config.setUsername(DatabaseParameters.getUser());
-            config.setPassword(DatabaseParameters.getPassword());
+            config.setJdbcUrl(DatabaseParameters.URL);
+            config.setUsername(DatabaseParameters.USER);
+            config.setPassword(DatabaseParameters.PASSWORD);
 
             // Configuracióm básica de pool
             config.setMaximumPoolSize(10);              // Número máximo de conexiones en el pool
